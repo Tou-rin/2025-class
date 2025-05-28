@@ -4,7 +4,8 @@ document.getElementById('draw').addEventListener('click',function(){
     const result=omikujiResults[
         Math.floor(Math.random()*omikujiResults.length)
     ];
-
+    
+    //if(result='虚無'){result.style.color = '#999';}
     
     document.getElementById('result').textContent=
     `あなたの運勢はぁぁっぁぁぁ... ${result}!`;
